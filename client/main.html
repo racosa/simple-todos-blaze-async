@@ -11,8 +11,14 @@
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+  <button id="create-async">Create Async</button>
+  <p>created id: {{taskIdAsync}}</p>
+
+  <button id="get-sync">Get Sync</button>
+  <p>sync result: {{taskDateSync}}</p>
+
+  <button id="get-async">Get Async</button>
+  <p>async result: {{taskDateAsync}}</p>
 </template>
 
 <template name="info">
